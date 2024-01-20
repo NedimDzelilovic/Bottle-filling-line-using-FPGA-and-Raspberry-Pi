@@ -1,0 +1,4 @@
+module top(clk, StepMotor1, StepMotor2);
+
+Stepper step_motor1(clk, 569, 1, StepMotor1, StepMotor2 );
+Stepper step_motor2(clk, 569, 0, StepMotor1, StepMotor2 );

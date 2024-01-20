@@ -1,0 +1,9 @@
+module stepper_traka (clk, ir_zatvaranje, motor_traka1, motor_traka2);
+    
+	input clk;
+	input ir_zatvaranje;
+  
+	output[3:0] motor_traka1; 
+	output[3:0] motor_traka2;
+	
+endmodule 

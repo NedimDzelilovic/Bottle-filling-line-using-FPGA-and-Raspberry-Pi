@@ -1,0 +1,25 @@
+module Stepper(clock, start, Pins_stepper);
+output [3:0] Pins_stepper ;
+input start;
+
+reg [3:0] Pins_stepper ;
+reg [2:0] step ;
+
+initial
+step = 0; //4 positions for half step//
+
+begin
+if (start)
+ step <= step + 1;
+end
+
+always @ (step) begin
+case (step)
+ 0: Pins_stepper <= 4'b1100;
+ 1: Pins_stepper <= 4'b0110;
+ 2: Pins_stepper <= 4'b0011;
+ 3: Pins_stepper <= 4'b1001;
+
+endcase
+end
+endmodule

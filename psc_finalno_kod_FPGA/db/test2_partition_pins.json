@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "motor_zatvaranje1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_zatvaranje1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_zatvaranje1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_zatvaranje1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_zatvaranje2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_zatvaranje2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_zatvaranje2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_zatvaranje2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_traka1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_traka1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_traka1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_traka1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_traka2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_traka2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_traka2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "motor_traka2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pumpa_switch",
+					"strict" : false
+				},
+				{
+					"name" : "dioda_punjenje",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ir_zatvaranje",
+					"strict" : false
+				},
+				{
+					"name" : "ir_pumpa",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

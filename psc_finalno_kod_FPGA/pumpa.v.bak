@@ -1,0 +1,18 @@
+module pumpa (clk, ir_pumpa, pumpa_switch );
+
+	input clk;
+	input ir_pumpa;
+	
+	output pumpa_switch;
+	
+	reg[31:0] StepCounter = 32'b0;
+	parameter[31:0] StepLockOut = 32'd500_000_000;
+	
+	if ((ir_pumpa == 1) && (StepCounter < StepLockOut))
+	begin
+		StepCounter <= StepCounter + 1b'1;
+		pumpa_switch <= 1b'1;
+		
+	end
+	
+endmodule 
